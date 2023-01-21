@@ -4,7 +4,6 @@ import { act } from 'react-dom/test-utils';
 import App from '../App';
 import renderWithRouter from '../renderWithRouter';
 
-
 describe('Testa o componente NotFound', () => {
   it('Renderiza um título com o texto correto da página', () => {
     const notFoundWarning = 'Page requested not found';
